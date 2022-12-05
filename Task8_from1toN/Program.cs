@@ -5,9 +5,12 @@ Console.WriteLine("Enter the number > 0 :");
 int N = Convert.ToInt32(Console.ReadLine());
 int M = 2;
 
-Console.WriteLine("List of required numbers:");
+if ( N <= 0)
+{
+    Console.WriteLine("You enter incorrect number");
+}
 
-while ( M <=N )
+while ( M <= N )
 {
     Console.WriteLine(M);
     M+=2;
