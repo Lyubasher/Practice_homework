@@ -1,5 +1,4 @@
-﻿ 
-Console.WriteLine("Chooce task");
+﻿Console.WriteLine("Chooce task");
 Console.WriteLine("task1: Quantity of Positive numbers in the line witn M  numbers:");
 Console.WriteLine("task2: The intersection point of 2 straight lines:");
 int n = Convert.ToInt32(Console.ReadLine());
@@ -68,5 +67,5 @@ double[] Coordinates (double a1, double f1, double a2, double f2) // y=f1*x + a1
     points[0] = (a2-a1)/(f1-f2);
     points[1] = f1*((a2-a1)/(f1-f2))+a1;
     return points;
-}
+} 
 
