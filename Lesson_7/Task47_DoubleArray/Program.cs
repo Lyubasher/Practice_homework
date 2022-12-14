@@ -5,7 +5,7 @@ Console.WriteLine("Enter array size: m and n");
 int m = Convert.ToInt32(Console.ReadLine());
 int n = Convert.ToInt32(Console.ReadLine());
 double[,] array2d = new double[m,n];
-Console.WriteLine("Enter numbers with commas");
+Console.WriteLine("Enter numbers with semicolon");
 
 for (int i = 0; i < m; i++)
 {
